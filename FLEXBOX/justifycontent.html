@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justify content</title>
+</head>
+<style>
+    .container {
+       max-width: 700px;
+        margin: 0px;
+        display: flex;
+        border: 2px solid rgb(194, 177, 177);
+        border-radius: 20%;
+    }
+
+    .item {
+        background-color: rgb(163, 163, 221);
+        border-radius: 20%;
+        margin: 5px;
+        text-align: center;
+        color: rgb(6, 7, 7);
+    }
+
+    .flex-start {
+        justify-content: flex-start;
+    }
+
+    .flex-end {
+        justify-content: flex-end;
+    }
+
+    .center {
+        justify-content: center;
+    }
+
+    .space-between {
+        justify-content: space-between;
+    }
+
+    .space-around{
+        justify-content: space-around;
+    }
+
+    .column{
+        flex-direction: column;
+        min-height: 300px;
+    }
+</style>
+
+<body>
+    <h3>Flex Start</h3>
+    <section class="container flex-start">
+        <div class="item">Home</div>
+        <div class="item">Parceiros</div>
+        <div class="item">Contatos</div>
+        <div class="item">Veja Mais</div>
+        <div class="item">Pesquisa</div>
+        <div class="item">Quem Somos</div>
+    </section>
+    <h2>Flex end</h2>
+    <section class="container flex-end">
+        <div class="item">Home</div>
+        <div class="item">Parceiros</div>
+        <div class="item">Contatos</div>
+        <div class="item">Veja Mais</div>
+        <div class="item">Pesquisa</div>
+        <div class="item">Quem Somos</div>
+    </section>
+
+    <h4>Center</h4>
+    <section class="container center">
+        <div class="item">Home</div>
+        <div class="item">Parceiros</div>
+        <div class="item">Contatos</div>
+        <div class="item">Veja Mais</div>
+        <div class="item">Pesquisa</div>
+        <div class="item">Quem Somos</div>
+    </section>
+
+    <h2>Space Between</h2>
+    <section class="container space-between">
+        <div class="item">Home</div>
+        <div class="item">Parceiros</div>
+        <div class="item">Contatos</div>
+        <div class="item">Veja Mais</div>
+        <div class="item">Pesquisa</div>
+        <div class="item">Quem Somos</div>
+    </section>
+
+    <h2>Space Around</h2>
+    <section class="container space-around">
+        <div class="item">Home</div>
+        <div class="item">Parceiros</div>
+        <div class="item">Contatos</div>
+        <div class="item">Veja Mais</div>
+        <div class="item">Pesquisa</div>
+        <div class="item">Quem Somos</div>
+    </section>
+
+
+            <h1>COLUNAS</h1>
+
+            <h3>Flex Start(COLUMN)</h3>
+    <section class="container flex-start column">
+        <div class="item">Home</div>
+        <div class="item">Parceiros</div>
+        <div class="item">Contatos</div>
+        <div class="item">Veja Mais</div>
+        <div class="item">Pesquisa</div>
+        <div class="item">Quem Somos</div>
+    </section>
+    <h2>Flex end COLUMN</h2>
+    <section class="container flex-end column">
+        <div class="item">Home</div>
+        <div class="item">Parceiros</div>
+        <div class="item">Contatos</div>
+        <div class="item">Veja Mais</div>
+        <div class="item">Pesquisa</div>
+        <div class="item">Quem Somos</div>
+    </section>
+
+    <h4>Center COLUMN</h4>
+    <section class="container center column">
+        <div class="item">Home</div>
+        <div class="item">Parceiros</div>
+        <div class="item">Contatos</div>
+        <div class="item">Veja Mais</div>
+        <div class="item">Pesquisa</div>
+        <div class="item">Quem Somos</div>
+    </section>
+
+    <h2>Space Between COLUMN</h2>
+    <section class="container space-between column">
+        <div class="item">Home</div>
+        <div class="item">Parceiros</div>
+        <div class="item">Contatos</div>
+        <div class="item">Veja Mais</div>
+        <div class="item">Pesquisa</div>
+        <div class="item">Quem Somos</div>
+    </section>
+
+    <h2>Space Around COLUMN</h2>
+    <section class="container space-around column">
+        <div class="item">Home</div>
+        <div class="item">Parceiros</div>
+        <div class="item">Contatos</div>
+        <div class="item">Veja Mais</div>
+        <div class="item">Pesquisa</div>
+        <div class="item">Quem Somos</div>
+    </section>
+
+</body>
+
+</html>

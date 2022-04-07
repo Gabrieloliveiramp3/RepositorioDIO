@@ -1,0 +1,60 @@
+body{
+    background: dimgray;
+    width: 800px;
+    margin: auto;
+}
+
+#title {color: blue;}
+.subtitle {color: red;}
+.sub{color: blueviolet;}
+
+#title{
+text-transform: uppercase;
+text-decoration: underline;
+}
+
+.logo{
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.endereço{
+font-style: verdana, arial;
+font-size: larger;
+}
+
+.sub{
+    font-size: 48px;
+    font-style: italic;
+    margin: 20px;
+    margin-bottom: 50px;
+
+}
+
+.classe{
+background: rgb(197, 195, 194);
+padding: 10px 5px 2px 0;
+border: 3px solid rgb(167, 34, 34);
+margin: 100px;
+border-radius:5%;
+background-image: url(https://resultadosdigitais.com.br/files/2015/08/por-do-sol-e1440783856626.jpg);
+width: 100%;
+}
+
+.paragrafo{
+    margin: 110;
+    margin-top: 20;
+}
+
+p {
+    color: blue;
+    margin-top: 0;
+    margin-bottom: 15;
+    text-indent: 3ch;
+    font-size: xx-large;
+}
+
+.contatos{
+ font-size: large;
+ font-style: italic;
+}

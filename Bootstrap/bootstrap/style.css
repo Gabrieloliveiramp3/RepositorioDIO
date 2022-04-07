@@ -1,0 +1,15 @@
+body{
+    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#title{
+    background-color: rgb(190, 190, 238);
+    font-size: 100px;
+    margin-top: auto;
+}
+
+.subtitle{
+    margin-bottom: 100;
+    background-color: darkgreen;
+}
